@@ -41,7 +41,19 @@
   
   
   </dependencies>
-  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>smaven-surefire-plugin</artifactId>
+        <version>3.9.0</version>
+        <configuration>
+          <!-- Plugin-specific configuration here -->
+        </configuration>
+      </plugin>
+      <!-- Add more plugins as needed -->
+    </plugins>
+  </build>
   
   
   
